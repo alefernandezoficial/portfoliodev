@@ -59,7 +59,7 @@ function page() {
       </div>
 
       <div className="container">
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
     </main>
   );
