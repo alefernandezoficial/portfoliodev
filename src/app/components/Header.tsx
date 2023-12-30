@@ -9,9 +9,9 @@ function Header() {
       <div className={styles.header}>
         <Image
           src="/image/alejandro-fernandez.png"
-          alt="Alejandro Fernandez Header"
-          width={500}
-          height={150}
+          alt="Ale Fernandez Dev"
+          width={350}
+          height={100}
         />
       </div>
       {/* Descripcion Slogan */}

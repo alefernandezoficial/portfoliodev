@@ -32,6 +32,16 @@
     /* Tamaño de los íconos */
 }
 
+/* Consulta de medios para teléfonos */
+@media (max-width: 767px) {
+    .redItem {
+        font-size: 3px;
+        /* Reducir el tamaño de los íconos en dispositivos móviles */
+        padding: 1px;
+        
+    }
+}
+
 .redItem:hover {
     transform: scale(1.1);
     /* Aumenta ligeramente el tamaño al pasar el cursor */

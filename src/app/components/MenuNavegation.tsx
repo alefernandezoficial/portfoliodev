@@ -12,7 +12,7 @@ function MenuNavegation() {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Ale Fernandez |
+            Ale Fernandez Dev |
           </a>
           <button
             className="navbar-toggler"
@@ -53,17 +53,6 @@ function MenuNavegation() {
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Buscar en el sitio"
-                aria-label="Search"
-              />
-              <button className="btn" type="submit">
-                Buscar
-              </button>
-            </form>
           </div>
         </div>
       </nav>
