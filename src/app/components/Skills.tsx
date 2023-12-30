@@ -3,71 +3,71 @@ import Card from "./Cards";
 export default function Home() {
     const tarjeta = {
         title: "HTML",
-        imageUrl: "https://drive.google.com/file/d/1WhQXbcKgqruX03YCzC0Kw-m5CDyRnjyo/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/html.jpg", // Ruta a tu imagen
         description: "HyperText Markup Language ",
     };
 
     const tarjeta1 = {
         title: "CSS",
-        imageUrl: "https://drive.google.com/file/d/181VrsTTjXIV1aFkQYhvoHmCwD2c9mIf9/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/css.jpg", // Ruta a tu imagen
         description: "Cascading Style Sheets",
     };
 
     const tarjeta2 = {
         title: "JavaScript",
-        imageUrl: "https://drive.google.com/file/d/1fj8M26mgw4rvWfTeUQUjjY739L0XtyaI/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/javascript.jpg", // Ruta a tu imagen
         description: "Lenguaje de programacion",
     };
 
     const tarjeta3 = {
         title: "Wordpress",
-        imageUrl: "https://drive.google.com/file/d/1D2j6Nu4i4MYiQZbqpH9PAE4rzf1DfNwF/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/wordpress.jpg", // Ruta a tu imagen
         description: "Creacion de sitios web",
     };
 
     const tarjeta4 = {
         title: "Photoshop",
-        imageUrl: "https://drive.google.com/file/d/1JgkeCUyBBv-MDs-BG2Usu-z9CY_35HVJ/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/ps.jpg", // Ruta a tu imagen
         description: "Edicion y creacion de fotos",
     };
 
     const tarjeta5 = {
         title: "CANVA",
-        imageUrl: "https://drive.google.com/file/d/1nSOiOb40UCBRJCu4u45jYjXYhB4VlOsN/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/canva.jpg", // Ruta a tu imagen
         description: "Diseño de contenidos",
     };
 
     const tarjeta6 = {
         title: "Reaper DAW",
-        imageUrl: "https://drive.google.com/file/d/1yu4Gc3UNOE4hYwH8piRzRI3X-BGAE8R5/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/reaper.jpg", // Ruta a tu imagen
         description: "Produccion Audiovisual",
     };
 
     const tarjeta7 = {
         title: "Sony Vegas",
-        imageUrl: "https://drive.google.com/file/d/1P9TaTcjm5VJOxmPxkRQu5lMZq-1RdKeZ/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/vegas.jpg", // Ruta a tu imagen
         description: "Produccion Visual",
     };
 
     const tarjeta8 = {
         title: "NextJS & ReactJS",
-        imageUrl: "https://drive.google.com/file/d/1dRkiceSAEqSOpXPynEILP_QjBoJQGAuG/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/nextjs.jpg", // Ruta a tu imagen
         description: "Framework Libreria",
     };
 
     const tarjeta9 = {
         title: "Bootstrap",
-        imageUrl: "https://drive.google.com/file/d/1k18txVGxrGPj4kDyDQlerGTQVSTeGOjL/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/bootstrap.jpg", // Ruta a tu imagen
         description: "Framework Libreria",
     };
     const tarjeta10 = {
         title: "Microsoft Word & Excel",
-        imageUrl: "https://drive.google.com/file/d/1On_OSsDgvj1xcqQdNNwi-jIs51Nto7va/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/microsoft.jpg", // Ruta a tu imagen
         description: "Paquete de programas office",
     };
     const tarjeta11 = {
         title: "GitHub",
-        imageUrl: "https://drive.google.com/file/d/1oXQAGxzTku3Ggu1JMcQ_m3qFOwzZrIFp/view?usp=drive_link", // Ruta a tu imagen
+        imageUrl: "/image/github.jpg", // Ruta a tu imagen
         description: "Control de versiones",
     };
 
