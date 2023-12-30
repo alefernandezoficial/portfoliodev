@@ -9,7 +9,6 @@ import {
   faGithub,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import ContactForm from "./components/ContactForm";
 
 
 function page() {
@@ -56,10 +55,6 @@ function page() {
             </a>
           ))}
         </div>
-      </div>
-
-      <div className="container">
-        {/* <ContactForm /> */}
       </div>
     </main>
   );
