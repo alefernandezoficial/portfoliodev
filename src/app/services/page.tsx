@@ -70,7 +70,9 @@ function page() {
       <div className="container">
         <div className="card text-bg-dark">
           <img
-            src="image/banner3.jpg"
+            src="image
+            
+            /banner3.jpg"
             className="card-img-top"
             alt="..."
           />
