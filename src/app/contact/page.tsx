@@ -18,7 +18,9 @@ function page() {
       url: "https://www.facebook.com/Alejandro.jSk.Fernandez",
       icono: faFacebookF,
     },
-    { nombre: "Twitter", url: "https://twitter.com/ale_jsk", icono: faTwitter },
+    { nombre: "Twitter",
+      url: "https://twitter.com/ale_jsk",
+      icono: faTwitter },
     {
       nombre: "Instagram",
       url: "https://www.instagram.com/ale.jsk",

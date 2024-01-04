@@ -28,7 +28,7 @@
     border-radius: 50%;
     /* Hace que los íconos tengan forma circular */
     transition: transform 0.3s ease-in-out;
-    font-size: 8px;
+    font-size: 5px;
     /* Tamaño de los íconos */
 }
 

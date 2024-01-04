@@ -11,7 +11,7 @@ function MenuNavegation() {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand">
             Ale Fernandez Dev |
           </a>
           <button
@@ -28,7 +28,7 @@ function MenuNavegation() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/" className="nav-link active" aria-current="page">
+                <Link href="/" className="nav-link" aria-current="page">
                   Inicio
                 </Link>
               </li>
@@ -48,9 +48,9 @@ function MenuNavegation() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
+              <Link href="/admin" className="nav-link">
                   ADMIN
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
