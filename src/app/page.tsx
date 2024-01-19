@@ -4,7 +4,6 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import ServicesContent from "./content/ServicesContent";
 import PortfolioContent from "./content/PortfolioContent";
-import ContactContent from "./content/ContactContent";
 
 function page() {
   return (
@@ -24,8 +23,6 @@ function page() {
       <ServicesContent/>
       <hr></hr>
       <PortfolioContent/>
-      <hr></hr>
-      <ContactContent/>
     </main>
   );
 }
