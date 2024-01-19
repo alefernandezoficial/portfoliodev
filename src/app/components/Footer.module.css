@@ -1,0 +1,27 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: #292c35;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLogo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footerContent {
+        flex-direction: column;
+    }
+}

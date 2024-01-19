@@ -2,6 +2,9 @@ import React from "react";
 import Skills from "./components/Skills";
 import styles from "./page.module.css";
 import Link from "next/link";
+import ServicesContent from "./content/ServicesContent";
+import PortfolioContent from "./content/PortfolioContent";
+import ContactContent from "./content/ContactContent";
 
 function page() {
   return (
@@ -17,6 +20,12 @@ function page() {
         </div>
       </div>
       <Skills />
+      <hr></hr>
+      <ServicesContent/>
+      <hr></hr>
+      <PortfolioContent/>
+      <hr></hr>
+      <ContactContent/>
     </main>
   );
 }

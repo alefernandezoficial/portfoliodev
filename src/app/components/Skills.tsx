@@ -44,7 +44,7 @@ export default function Home() {
     };
 
     const tarjeta7 = {
-        title: "Sony Vegas",
+        title: "Sony Vegas Pro",
         imageUrl: "/image/vegas.jpg", // Ruta a tu imagen
         description: "Produccion Visual",
     };
@@ -61,7 +61,7 @@ export default function Home() {
         description: "Framework Libreria",
     };
     const tarjeta10 = {
-        title: "Microsoft Word & Excel",
+        title: "Word & Excel",
         imageUrl: "/image/microsoft.jpg", // Ruta a tu imagen
         description: "Paquete de programas office",
     };

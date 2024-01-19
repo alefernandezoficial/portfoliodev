@@ -1,18 +1,21 @@
 import React from "react";
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div>
-      {" "}
-      <footer
-        id="sticky-footer"
-        className="flex-shrink-0 py-4 bg-dark text-white-50"
-      >
-        <div className="container text-center">
-          <small>Copyright &copy; - Ale Fernandez Dev -</small>
+    <footer className={styles.footer}>
+      <div className={styles.footerContent}>
+        <div className={styles.footerSection}>
+          <div className={styles.footerLogo}>Ale Fernandez Developer</div>
+          <p>Diseñador, Desarrollador y Programador Web & Apps</p>
         </div>
-      </footer>
-    </div>
+        <div className={styles.footerSection}>
+          <h3>Contacto</h3>
+          <p>Granadero Baigorria, Santa Fe</p>
+          <p>Email: alefernandezoficial@gmail.com</p>
+        </div>
+      </div>
+    </footer>
   );
 }
 

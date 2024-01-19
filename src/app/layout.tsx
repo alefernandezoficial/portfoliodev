@@ -9,8 +9,8 @@ import Header from "./components/Header";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ale Fernandez Portfolio v2",
-  description: "Diseñador, Desarrollador & Programador Web",
+  title: "Ale Fernandez v2",
+  description: "Diseñador, Desarrollador & Programador Web & Apps. Diseño la pagina a tu estilo o uno nuevo. Desarrollo lo importante, lo escencial, lo de calidad. Programo lo que la gente no quiere.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={montserrat.className}>
         {/* Menu Navegation */}
         <MenuNavegation />

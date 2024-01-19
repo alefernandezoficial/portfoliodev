@@ -14,10 +14,6 @@ function Header() {
           height={100}
         />
       </div>
-      {/* Descripcion Slogan */}
-      <div className={styles.header}>
-        <code>Diseñador, Desarrollador & Programador Web</code>
-      </div>
     </main>
   );
 }

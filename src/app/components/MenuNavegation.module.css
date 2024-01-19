@@ -1,0 +1,53 @@
+/* styles.module.css */
+
+/* Estilos generales de la barra de navegación */
+.navbar {
+    background-color: #1a1a1a73;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto claro */
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 20px;
+}
+
+/* Estilos para el logo o marca en la barra de navegación */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+/* Cambiar color al pasar el mouse sobre el logo */
+.navbar-brand:hover {
+    color: #ffcc00;
+    /* Color al pasar el mouse */
+}
+
+/* Estilos para el botón de desplegar menú */
+.navbar-toggler-icon {
+    color: #fff;
+    /* Color del icono del botón */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.nav-item {
+    margin-right: 15px;
+}
+
+/* Estilos para los enlaces de la lista de navegación */
+.nav-link {
+    color: #fff;
+    /* Color del texto del enlace */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* Transición de color suave */
+    font-size: 18px;
+}
+
+/* Estilo para los enlaces al pasar el mouse */
+.nav-link:hover {
+    color: #ffcc00;
+    /* Color al pasar el mouse */
+}
